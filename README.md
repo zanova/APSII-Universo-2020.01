@@ -12,5 +12,3 @@ Ao submeter seu trabalho siga os seguintes passos:
 	* Copie o código da pasta Desafio
 	* Submeta sua solução
 	
-	
-	d
