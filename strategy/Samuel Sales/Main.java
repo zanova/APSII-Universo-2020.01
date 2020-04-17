@@ -2,8 +2,7 @@ package strategy;
 
 import java.util.Scanner;
 
-
-public class Main{
+public class Main {
 
     public static void main(String[] args) {
         String Pub = "Publico";
@@ -13,7 +12,7 @@ public class Main{
         double valor;
         Scanner sc = new Scanner(System.in);
         int opc;
-        
+
         System.out.println("Digite o Tipo do Ingresso");
         System.out.println("1 - Para Preço Publico");
         System.out.println("2 - Para Preço Credito");
@@ -25,14 +24,14 @@ public class Main{
 
             case 1: {
                 System.out.println("Preço Publico Escolhido");
-                valor=11.50;
+                valor = 11.50;
                 alteracao = new AlteraValor(valor, Pub);
                 alteracao.definePreco();
                 break;
             }
             case 2: {
                 System.out.println("Preço Credito Escolhido");
-                valor=10.50;
+                valor = 10.50;
                 alteracao = new AlteraValor(valor, Cred);
                 alteracao.definePreco();
 
@@ -40,7 +39,7 @@ public class Main{
             }
             case 3: {
                 System.out.println("Preço Vip Escolhido");
-                valor=9.50;
+                valor = 9.50;
                 alteracao = new AlteraValor(valor, Vip);
                 alteracao.definePreco();
                 break;

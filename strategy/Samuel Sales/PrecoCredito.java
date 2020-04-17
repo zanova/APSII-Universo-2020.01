@@ -2,8 +2,7 @@ package strategy;
 
 public class PrecoCredito implements Preco {
 
-   private double valor;
-    private String cliente;
+    private double valor;
 
     public PrecoCredito(double valor) {
         this.valor = valor;
@@ -18,15 +17,4 @@ public class PrecoCredito implements Preco {
     public double getValor() {
         return this.valor;
     }
-
-    @Override
-    public String getCliente() {
-        return cliente;
-    }
-
-    @Override
-    public void setCliente(String cliente) {
-        this.cliente = cliente;
-    }
-
 }
