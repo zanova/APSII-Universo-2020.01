@@ -6,11 +6,11 @@ Múltiplas agencias de mídia e canais do governo se increvem um ou mais canais 
 
 Monte as classes referentes aos canais e revistas, bem como das agencias: VaiQueDa, Universo, Gov e Sistemas que estão inscritas nos seguintes canais:
 
-	* VaiQueDa
-		** Todos da Editora Abril
-	* Universo
-		** Todos da Globo
-	* Gov
-		** Todos os canais
-	* Sistemas
-		** Somente a Revista VEJA e o canal Globo.
+* VaiQueDa
+	* Todos da Editora Abril
+* Universo
+	* Todos da Globo
+* Gov
+	* Todos os canais
+* Sistemas
+	* Somente a Revista VEJA e o canal Globo.
