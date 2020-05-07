@@ -1,6 +1,6 @@
 ## Instruções
 
-Um programdor foi contrato pela Editora Abril para desenvolver um sistema de notificação as as revistas Galileu, Veja, SuperInteressante, Você S.A e Quatro Rodas, e aproveitou a estrutura para o Grupo Globo nos Canais: Viva, Globo e GloboSat.
+Um programdor foi contrato pela Editora Abril para desenvolver um sistema de notificação para as revistas Galileu, Veja, SuperInteressante, Você S.A e Quatro Rodas, e aproveitou a estrutura para o Grupo Globo nos Canais: Viva, Globo e GloboSat.
 
 Múltiplas agencias de mídia e canais do governo se increvem um ou mais canais para receber as atualizações de notícias.
 
