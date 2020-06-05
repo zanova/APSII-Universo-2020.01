@@ -1,0 +1,13 @@
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoState\PadraoState\bin\Debug\netcoreapp3.1\PadraoState.exe
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoState\PadraoState\bin\Debug\netcoreapp3.1\PadraoState.deps.json
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoState\PadraoState\bin\Debug\netcoreapp3.1\PadraoState.runtimeconfig.json
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoState\PadraoState\bin\Debug\netcoreapp3.1\PadraoState.runtimeconfig.dev.json
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoState\PadraoState\bin\Debug\netcoreapp3.1\PadraoState.dll
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoState\PadraoState\bin\Debug\netcoreapp3.1\PadraoState.pdb
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoState\PadraoState\obj\Debug\netcoreapp3.1\PadraoState.csprojAssemblyReference.cache
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoState\PadraoState\obj\Debug\netcoreapp3.1\PadraoState.AssemblyInfoInputs.cache
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoState\PadraoState\obj\Debug\netcoreapp3.1\PadraoState.AssemblyInfo.cs
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoState\PadraoState\obj\Debug\netcoreapp3.1\PadraoState.csproj.CoreCompileInputs.cache
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoState\PadraoState\obj\Debug\netcoreapp3.1\PadraoState.dll
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoState\PadraoState\obj\Debug\netcoreapp3.1\PadraoState.pdb
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoState\PadraoState\obj\Debug\netcoreapp3.1\PadraoState.genruntimeconfig.cache
