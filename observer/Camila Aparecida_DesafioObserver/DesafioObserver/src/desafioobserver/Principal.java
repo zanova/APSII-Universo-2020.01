@@ -16,47 +16,61 @@ public class Principal {
         CanalGloboSat globoSat = new CanalGloboSat();
         CanalViva viva = new CanalViva();
           
-        Agencia.anexarEditoraAbril(galileu);
-	Agencia.anexarEditoraAbril(quatroRodas);
-        Agencia.anexarEditoraAbril(superInteressante);
-        Agencia.anexarEditoraAbril(veja);
-        Agencia.anexarEditoraAbril(voceSA);
-        Agencia.anexarGrupoGlobo(globo);
-        Agencia.anexarGrupoGlobo(globoSat);
-        Agencia.anexarGrupoGlobo(viva);
-        
-        
+       
         Agencia vaiQueDa = new Agencia ("Agencia VaiQueDa");
-        vaiQueDa.salvarEstadoEditoraAbril();
-        System.out.println("\n\n");
         
+        Agencia.anexar(galileu);
+	Agencia.anexar(quatroRodas);
+        Agencia.anexar(superInteressante);
+        Agencia.anexar(veja);
+        Agencia.anexar(voceSA);
+        
+        Agencia.desanexar(globoSat);
+        Agencia.desanexar(globo);
+        Agencia.desanexar(viva);
+        
+        vaiQueDa.salvarEstado();
+        System.out.println("\n");
+          
         
         Agencia universo = new Agencia ("Agencia Universo");
-        universo.salvarEstadoGrupoGlobo();
-        System.out.println("\n\n");
+        Agencia.anexar(globo);
+        Agencia.anexar(globoSat);
+        Agencia.anexar(viva);
+             
+        Agencia.desanexar(galileu); 
+        Agencia.desanexar(quatroRodas);
+        Agencia.desanexar(superInteressante);       
+        Agencia.desanexar(voceSA);
+        Agencia.desanexar(veja);
+        
+        universo.salvarEstado();
+        System.out.println("\n");
+        
         
         Agencia gov = new Agencia("Agencia do Governo");
-        gov.salvarEstadoEditoraAbril();
-        gov.salvarEstadoGrupoGlobo();
-        System.out.println("\n\n");
         
         
-        Agencia sistemas = new Agencia ("Agencia Sistemas");
+        Agencia.anexar(galileu);
+	Agencia.anexar(quatroRodas);
+        Agencia.anexar(superInteressante);
+        Agencia.anexar(veja);
+        Agencia.anexar(voceSA);
         
-        Agencia.desanexarEditoraAbril(galileu);
-        Agencia.desanexarEditoraAbril(quatroRodas);
-        Agencia.desanexarEditoraAbril(superInteressante);
-        Agencia.desanexarEditoraAbril(voceSA);
-      
-        sistemas.salvarEstadoEditoraAbril();
-        
-        Agencia.desanexarGrupoGlobo(globoSat);
-        Agencia.desanexarGrupoGlobo(globoSat);
-        Agencia.desanexarGrupoGlobo(viva);
-        
-        sistemas.salvarEstadoGrupoGlobo();
-        
+        gov.salvarEstado();
         System.out.println("\n");
-       
+           
+        
+        Agencia sistemas = new Agencia ("Agencia Sistemas");  
+        
+        Agencia.desanexar(galileu);      
+        Agencia.desanexar(quatroRodas);       
+        Agencia.desanexar(superInteressante);      
+        Agencia.desanexar(voceSA);      
+        Agencia.desanexar(globoSat);       
+        Agencia.desanexar(viva);
+        
+        sistemas.salvarEstado();
+        System.out.println("\n"); 
     }   
 }
