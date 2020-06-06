@@ -3,7 +3,7 @@ using System;
 
 namespace PadraoObserverII.Revistas
 {
-    class QuatroRodas : IObserverRevista
+    class QuatroRodas : IObservar
     {
         public void Atualizar(Agencia entrada)
         {

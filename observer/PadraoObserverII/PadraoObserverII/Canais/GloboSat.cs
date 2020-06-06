@@ -3,7 +3,7 @@ using System;
 
 namespace PadraoObserverII.Canais
 {
-    class GloboSat : IObserverCanal
+    class GloboSat : IObservar
     {
         public void Atualizar(Agencia entrada)
         {

@@ -3,7 +3,7 @@ using System;
 
 namespace PadraoObserverII.Canais
 {
-    class Viva : IObserverCanal
+    class Viva : IObservar
     {
         public void Atualizar(Agencia entrada)
         {

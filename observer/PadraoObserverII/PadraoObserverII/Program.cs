@@ -1,5 +1,6 @@
 ﻿using PadraoObserverII.Canais;
 using PadraoObserverII.Revistas;
+using PadraoObserverII.Agencias;
 using System;
 
 namespace PadraoObserverII
@@ -18,43 +19,41 @@ namespace PadraoObserverII
             Veja Veja = new Veja();
             VoceSabia VoceSabia = new VoceSabia();
 
-            Agencia.AdicionarObservadorCanal(Globo);
-            Agencia.AdicionarObservadorCanal(GloboSat);
-            Agencia.AdicionarObservadorCanal(Viva);
-            Agencia.AdicionarObservadorRevista(Galileu);
-            Agencia.AdicionarObservadorRevista(QuatroRodas);
-            Agencia.AdicionarObservadorRevista(SuperInteressante);
-            Agencia.AdicionarObservadorRevista(Veja);
-            Agencia.AdicionarObservadorRevista(VoceSabia);
+            VaiQueDa VaiQueDa = new VaiQueDa();
+            VaiQueDa.AdicionarObservados(Galileu);
+            VaiQueDa.AdicionarObservados(QuatroRodas);
+            VaiQueDa.AdicionarObservados(SuperInteressante);
+            VaiQueDa.AdicionarObservados(Veja);
+            VaiQueDa.AdicionarObservados(VoceSabia);
+
+            Universo Universo = new Universo();
+            Universo.AdicionarObservados(Globo);
+            Universo.AdicionarObservados(GloboSat);
+
+            Gov Gov = new Gov();
+            Gov.AdicionarObservados(Globo);
+            Gov.AdicionarObservados(GloboSat);
+            Gov.AdicionarObservados(Viva);
+
+            Sistemas Sistema = new Sistemas();
+            Sistema.AdicionarObservados(Globo);
+            Sistema.AdicionarObservados(Veja);
 
             Console.WriteLine("Canais assistidos e revistas assinadas");
             Console.WriteLine();
 
-            Agencia VaiQueDa = new Agencia("Vai Que Da");
-            VaiQueDa.SalvarEstadoRevista();
+            VaiQueDa.SalvarEstado();
             Console.WriteLine();
 
-            Agencia Universo = new Agencia("Universo");
-            Universo.SalvarEstadoCanal();
+            Universo.SalvarEstado();
             Console.WriteLine();
 
-            Agencia GOV = new Agencia("GOV");
-            GOV.SalvarEstadoCanal();
-            GOV.SalvarEstadoRevista();
+            Gov.SalvarEstado();
             Console.WriteLine();
 
-            Agencia Sistemas = new Agencia("Sistemas");
-            Agencia.RemoverRevista(Galileu);
-            Agencia.RemoverRevista(QuatroRodas);
-            Agencia.RemoverRevista(SuperInteressante);
-            Agencia.RemoverRevista(VoceSabia);
+            Sistema.SalvarEstado();
+            Console.WriteLine();
 
-            Sistemas.SalvarEstadoRevista();
-
-            Agencia.RemoverCanal(GloboSat);
-            Agencia.RemoverCanal(Viva);
-
-            Sistemas.SalvarEstadoCanal();
         }
     }
 }

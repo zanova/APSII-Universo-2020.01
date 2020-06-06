@@ -3,7 +3,7 @@ using System;
 
 namespace PadraoObserverII.Revistas
 {
-    class VoceSabia : IObserverRevista
+    class VoceSabia : IObservar
     {
         public void Atualizar(Agencia entrada)
         {
