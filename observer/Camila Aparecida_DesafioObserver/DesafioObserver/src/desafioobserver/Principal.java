@@ -1,17 +1,18 @@
 package desafioobserver;
-import Cliente.Agencia;
+
 import AgenciasDeNoticias.*;
+import Cliente.Agencia;
 
 public class Principal {
 
     public static void main(String[] args) {
-        
+
         RevistaGalileu galileu = new RevistaGalileu();
         RevistaQuatroRodas quatroRodas = new RevistaQuatroRodas();
         RevistaSuperInteressante superInteressante = new RevistaSuperInteressante();
         RevistaVeja veja = new RevistaVeja();
         RevistaVoceSA voceSA = new RevistaVoceSA();
-        
+
         CanalGlobo globo = new CanalGlobo();
         CanalGloboSat globoSat = new CanalGloboSat();
         CanalViva viva = new CanalViva();

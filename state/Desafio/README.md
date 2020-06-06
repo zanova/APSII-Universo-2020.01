@@ -14,7 +14,7 @@ Contudo, todas estas condições devem ser checadas para realizar esta única tr
 	* Se Mario pequeno -> Mario grande
 	* Se Mario grande -> 1000 pontos
 	* Se Mario fogo -> 1000 pontos
-* Se Mario capa -> 1000 pontos
+	* Se Mario capa -> 1000 pontos
 
 * Pegar Flor:
 	* Se Mario pequeno -> Mario grande e Mario fogo

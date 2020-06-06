@@ -1,0 +1,13 @@
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoObserverII\PadraoObserverII\bin\Debug\netcoreapp3.1\PadraoObserverII.exe
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoObserverII\PadraoObserverII\bin\Debug\netcoreapp3.1\PadraoObserverII.deps.json
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoObserverII\PadraoObserverII\bin\Debug\netcoreapp3.1\PadraoObserverII.runtimeconfig.json
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoObserverII\PadraoObserverII\bin\Debug\netcoreapp3.1\PadraoObserverII.runtimeconfig.dev.json
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoObserverII\PadraoObserverII\bin\Debug\netcoreapp3.1\PadraoObserverII.dll
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoObserverII\PadraoObserverII\bin\Debug\netcoreapp3.1\PadraoObserverII.pdb
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoObserverII\PadraoObserverII\obj\Debug\netcoreapp3.1\PadraoObserverII.csprojAssemblyReference.cache
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoObserverII\PadraoObserverII\obj\Debug\netcoreapp3.1\PadraoObserverII.AssemblyInfoInputs.cache
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoObserverII\PadraoObserverII\obj\Debug\netcoreapp3.1\PadraoObserverII.AssemblyInfo.cs
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoObserverII\PadraoObserverII\obj\Debug\netcoreapp3.1\PadraoObserverII.csproj.CoreCompileInputs.cache
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoObserverII\PadraoObserverII\obj\Debug\netcoreapp3.1\PadraoObserverII.dll
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoObserverII\PadraoObserverII\obj\Debug\netcoreapp3.1\PadraoObserverII.pdb
+C:\Users\renny\OneDrive\Documents\Faculdade\Análise e projeto de sistema\PadraoObserverII\PadraoObserverII\obj\Debug\netcoreapp3.1\PadraoObserverII.genruntimeconfig.cache
