@@ -29,11 +29,17 @@ namespace PadraoObserverII
             Universo Universo = new Universo();
             Universo.AdicionarObservados(Globo);
             Universo.AdicionarObservados(GloboSat);
+            Universo.AdicionarObservados(Viva);
 
             Gov Gov = new Gov();
             Gov.AdicionarObservados(Globo);
             Gov.AdicionarObservados(GloboSat);
             Gov.AdicionarObservados(Viva);
+            Gov.AdicionarObservados(Galileu);
+            Gov.AdicionarObservados(QuatroRodas);
+            Gov.AdicionarObservados(SuperInteressante);
+            Gov.AdicionarObservados(Veja);
+            Gov.AdicionarObservados(VoceSabia);
 
             Sistemas Sistema = new Sistemas();
             Sistema.AdicionarObservados(Globo);
