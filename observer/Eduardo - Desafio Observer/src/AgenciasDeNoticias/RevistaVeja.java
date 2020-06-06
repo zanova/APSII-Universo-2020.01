@@ -1,7 +1,7 @@
 package AgenciasDeNoticias;
 import Cliente.Agencia;
 
-public class RevistaVeja implements ObserverEditoraAbril{
+public class RevistaVeja implements ObserverNoticias{
 
     @Override
     public void atualizar(Agencia entrada) {

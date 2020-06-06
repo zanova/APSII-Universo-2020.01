@@ -1,7 +1,7 @@
 package AgenciasDeNoticias;
 import Cliente.Agencia;
 
-public class CanalGlobo implements ObserverGrupoGlobo{
+public class CanalGlobo implements ObserverNoticias{
 
     @Override
     public void atualizar(Agencia entrada) {
